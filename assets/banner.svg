@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="45%" stop-color="#0a1128"/>
+      <stop offset="100%" stop-color="#131a3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3b6fd6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3b6fd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.15" stroke="#7fa8ff" stroke-width="1.5" fill="none">
+    <circle cx="600" cy="180" r="140"/>
+    <circle cx="600" cy="180" r="14"/>
+    <line x1="600" y1="40" x2="600" y2="320"/>
+  </g>
+
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+    <line x1="80" y1="60" x2="1120" y2="60"/>
+    <line x1="80" y1="300" x2="1120" y2="300"/>
+  </g>
+
+  <line x1="60" y1="330" x2="1140" y2="330" stroke="url(#lineFade)" stroke-width="2"/>
+
+  <g opacity="0.18" fill="#8fb4ff">
+    <circle cx="150" cy="90" r="4"/>
+    <circle cx="1050" cy="100" r="5"/>
+    <circle cx="1000" cy="260" r="3"/>
+    <circle cx="180" cy="270" r="3.5"/>
+  </g>
+
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1" fill="none">
+    <polygon points="600,60 700,180 600,300 500,180"/>
+  </g>
+
+  <text x="600" y="160" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" fill="#ffffff" font-weight="700">
+    <tspan x="600" dy="0">Blue Lock: Rivals Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Stat tracker for Blue Lock: Rivals players — log matches, track stats,</tspan>
+    <tspan x="600" dy="30">and compare progress without guesswork.</tspan>
+  </text>
+</svg>
